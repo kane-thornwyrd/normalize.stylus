@@ -35,8 +35,9 @@ server.use(stylus.middleware({
 
 ##Stylus API
 
-```
 Import the library:
+
+```
 `@import "normalize"`
 ```
 

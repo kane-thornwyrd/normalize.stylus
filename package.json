@@ -1,0 +1,19 @@
+{
+  "name": "normalize.styl"
+, "description": "Stylus port of normalize.css"
+, "version": "0.1.0"
+, "keywords": ["stylus", "normalize", "normalize.css"]
+, "license": "MIT"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/geekrrr/normalize.styl.git"
+  }
+, "dependencies": {
+    "stylus": "*"
+  }
+, "author": "geekrrr <geekrrr@yahoo.com>"
+, "main": "lib/normalize.js"
+, "engines": { "node": "*" }
+}
+
+

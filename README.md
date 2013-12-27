@@ -1,4 +1,4 @@
-#normalize.styl
+#normalize.stylus
 
 Stylus port of normalize.css v2.1.3.
 
@@ -6,7 +6,7 @@ Stylus port of normalize.css v2.1.3.
 
 ```
 terminal: ~$
-npm install normalize.styl
+npm install normalize.stylus
 ```
 
 ##JavaScript API
@@ -16,7 +16,7 @@ Below is an example of how to utilize normalize and stylus with the connect fram
 ```
 var connect = require('connect')
   , stylus = require('stylus')
-  , normalize = require('normalize');
+  , normalize = require('normalize.stylus');
 
 var server = connect();
 
@@ -35,11 +35,14 @@ server.use(stylus.middleware({
 
 ##Stylus API
 
-Import the library:
+After expose the path to Stylus, import the library:
 
-```
-`@import "normalize"`
-```
+`@import "normalize.stylus"`
+
+Or import from node_modules folder:
+
+`@import "node_modules/normalize.stylus"`
+
 
 License
 

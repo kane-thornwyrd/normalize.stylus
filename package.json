@@ -6,7 +6,7 @@
 , "license": "MIT"
 , "repository": {
     "type": "git"
-  , "url": "git://github.com/geekrrr/normalize.styl.git"
+  , "url": "git://github.com/geekrrr/normalize.stylus.git"
   }
 , "dependencies": {
     "stylus": "*"

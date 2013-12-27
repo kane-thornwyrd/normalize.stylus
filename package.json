@@ -1,5 +1,5 @@
 {
-  "name": "normalize.styl"
+  "name": "normalize.stylus"
 , "description": "Stylus port of normalize.css"
 , "version": "0.1.0"
 , "keywords": ["stylus", "normalize", "normalize.css"]

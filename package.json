@@ -19,8 +19,5 @@
   "main": "lib/normalize.js",
   "engines": {
     "node": "*"
-  },
-  "devDependencies": {
-    "express": "~3.4.7"
   }
 }
